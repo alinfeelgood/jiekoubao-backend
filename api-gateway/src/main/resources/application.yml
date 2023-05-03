@@ -1,0 +1,31 @@
+server:
+  port: 10003
+logging:
+  level:
+    org:
+      springframework:
+        cloud:
+          gateway: trace
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: after_route
+          uri: http://localhost:10002
+          predicates:
+            - Path=/api/**
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+  application:
+    name: api-gateway
+
+dubbo:
+  application:
+    name: dubbo-springboot-demo-provider
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    id: nacos-registry
+    address: nacos://localhost:8848
