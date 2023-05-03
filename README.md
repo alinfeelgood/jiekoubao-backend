@@ -6,13 +6,13 @@
    接口调用页、用户个人信息页、接口详情页。后台包含接口管理、用户管理、用户接口管理、接口查询、接口统计报表、权限管理等模块。
 2. 此项目分为以下模块 
 api-backend-project
-├── api-backend -- 模拟用户调用接口以及主要代码逻辑实现
-├── api-client-sdk -- 给用户使用的sdk
-├── api-common -- 公共服务模块
-├── api-frontinterface -- 接口的主要实现逻辑
-├── api-gateway -- 接口网关服务模块
-├── api-rpc -- 远程调用模块
-└── api-sms -- 短信验证服务模块
+├──api-backend -- 模拟用户调用接口以及主要代码逻辑实现
+├──api-client-sdk -- 给用户使用的sdk
+├──api-common -- 公共服务模块
+├──api-frontinterface -- 接口的主要实现逻辑
+├──api-gateway -- 接口网关服务模块
+├──api-rpc -- 远程调用模块
+└──api-sms -- 短信验证服务模块
 
 # 项目演示
 ![alt text](./img/eg1.png)
