@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.huanlin.project.mapper.InterfaceErrorMapper">
+
+    <resultMap id="BaseResultMap" type="com.hunalin.model.entity.InterfaceError">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="interfaceId" column="interfaceId" jdbcType="BIGINT"/>
+            <result property="name" column="name" jdbcType="VARCHAR"/>
+            <result property="information" column="information" jdbcType="VARCHAR"/>
+            <result property="email" column="email" jdbcType="VARCHAR"/>
+            <result property="status" column="status" jdbcType="INTEGER"/>
+            <result property="createTime" column="createTime" jdbcType="TIMESTAMP"/>
+            <result property="updateTime" column="updateTime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,interfaceId,name,
+        information,email,status,createTime,
+        updateTime
+    </sql>
+</mapper>
