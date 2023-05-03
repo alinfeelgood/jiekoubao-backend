@@ -19,7 +19,7 @@ api-backend-project
 ![alt text](./img/eg2.png)
 
 # 技术选型
-##后端技术
+## 后端技术
 | 技术      | 说明     | 官网     |
 | ---------- | :-----------:  | :-----------: |
 | SpringBoot     | 	Web应用开发框架     | https://spring.io/projects/spring-boot   |
@@ -37,7 +37,7 @@ api-backend-project
 | Hutool     | 		Java工具类库     | https://github.com/looly/hutool   |
 | Swagger-UI     | 			API文档生成工具     | https://github.com/swagger-api/swagger-ui   |
 | Hutool     | 		Java工具类库     | https://github.com/looly/hutool   |
-##前端技术
+## 前端技术
 | 技术      | 说明     | 官网     |
 | ---------- | :-----------:  | :-----------: |
 | React     | 	前端框架     | https://zh-hans.reactjs.org/learn   |
@@ -45,8 +45,8 @@ api-backend-project
 |   Ant Design Procomponents   | 	框架组件    | https://procomponents.ant.design/docs  |
 |   Umi   | 	底层前端框架    | https://umijs.org/docs/tutorials/getting-started  |
 | Echarts    | 		基于Echarts的图表框架     | https://echarts.apache.org/handbook/zh/get-started/ |
-#环境搭建
-##开发工具
+# 环境搭建
+## 开发工具
 | 工具      | 说明     | 官网     |
 | ---------- | :-----------:  | :-----------: |
 | IDEA     | 	开发后端代码     | 	https://www.jetbrains.com/idea/download  |
@@ -57,7 +57,7 @@ api-backend-project
 | Typora  | 			Markdown编辑器    | 	https://typora.io/ |
 | Postman  | 				API接口调试工具  | 	https://www.postman.com/ |
 | Jmeter   | 	压力测试工具   | 	https://jmeter.apache.org/ |
-#开发环境
+# 开发环境
 | 工具      | 版本号     | 下载     |
 | ---------- | :-----------:  | :-----------: |
 | JDK     | 	1.8     | 		https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html  |
