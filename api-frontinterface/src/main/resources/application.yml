@@ -1,0 +1,20 @@
+server:
+  port: 10002
+  servlet:
+    context-path: /api
+huanlin:
+  client:
+    access-key: 200618b62e0eb1097a978d19176416bc
+    secret-key: cc032856e38ebdbbb6ad01138f946517
+spring:
+  application:
+    name: api-frontinterface
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/myapi
+    username: root
+    password: 123456
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
