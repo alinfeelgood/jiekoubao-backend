@@ -95,10 +95,6 @@ cos:
     secretKey: xxx
     region: xxx
     bucket: xxx
-huanlin:
-  client:
-    access-key: 200618b62e0eb1097a978d19176416bc
-    secret-key: cc032856e38ebdbbb6ad01138f946517
 
 dubbo:
   application:
