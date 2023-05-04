@@ -19,7 +19,7 @@ spring:
         max-wait: -1
         max-idle: 5
         min-idle: 0
-    password: 123456
+    password: 
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
