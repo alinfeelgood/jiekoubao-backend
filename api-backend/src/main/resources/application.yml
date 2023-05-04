@@ -20,7 +20,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/myapi
     username: root
-    password: 123456
+    password: 
   # Redis 配置
   # todo 需替换配置，然后取消注释
   redis:
@@ -34,7 +34,7 @@ spring:
         max-wait: -1
         max-idle: 5
         min-idle: 0
-    password: 123456
+    password: 
   # Elasticsearch 配置
   # todo 需替换配置，然后取消注释
 #  elasticsearch:
@@ -108,7 +108,7 @@ dubbo:
 aliyun:
   oss:
    file:
-    endpoint: oss-cn-hangzhou.aliyuncs.com
-    keyid: LTAI5tQHbuYKcTtN8G9CoS88
-    keysecret: aYuumTyRhFm9AoPpnaeDI5ri3qnTGY
-    bucketname: edu-education2023
+    endpoint: 
+    keyid: 
+    keysecret: 
+    bucketname: 
