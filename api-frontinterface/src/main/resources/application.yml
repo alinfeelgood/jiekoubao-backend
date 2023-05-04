@@ -4,8 +4,8 @@ server:
     context-path: /api
 huanlin:
   client:
-    access-key: 200618b62e0eb1097a978d19176416bc
-    secret-key: cc032856e38ebdbbb6ad01138f946517
+    access-key: 
+    secret-key: 
 spring:
   application:
     name: api-frontinterface
@@ -13,7 +13,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/myapi
     username: root
-    password: 123456
+    password: 
 mybatis-plus:
   configuration:
     map-underscore-to-camel-case: false
